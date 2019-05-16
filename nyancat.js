@@ -1,9 +1,5 @@
-// put this in url field: javascript:var s=document.createElement('script');s.src='http://nc/nc.js';document.body.appendChild(s);void(0);
-
 $(document).ready(function () {
-    // not sure how one can deduce the location of the script (that is included in a page) and not that of the including page.
-    var url = 'http://beichen.lionfree.net/nyancat/';
-    /*var url = location.href.substring(0, location.href.lastIndexOf('/') + 1);*/
+    var url = 'https://siriustsou.github.io/nyancat';
 
     var shiftPressed = 0;   // counter of key presses
     var shiftMax = 5;   // when pressed that many times sequentially, start animation
